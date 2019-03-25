@@ -1,0 +1,76 @@
+2019-03-23 12:43:46.318  INFO 764 [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d4bf5119] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-23 12:43:46.971  INFO 764 [main] --- c.oshopgateway.OshopGatewayApplication   : No active profile set, falling back to default profiles: default
+2019-03-23 12:43:49.815  WARN 764 [main] --- o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-03-23 12:43:49.849  WARN 764 [main] --- o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-03-23 12:43:50.596  INFO 764 [main] --- o.s.cloud.context.scope.GenericScope     : BeanFactory id=725f20f4-5efc-3dfd-b1b1-47a954635ff1
+2019-03-23 12:43:51.391  INFO 764 [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d4bf5119] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-23 12:43:52.468  INFO 764 [main] --- o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8765 (http)
+2019-03-23 12:43:52.596  INFO 764 [main] --- o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8765"]
+2019-03-23 12:43:52.625  INFO 764 [main] --- o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-23 12:43:52.626  INFO 764 [main] --- org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-23 12:43:52.649  INFO 764 [main] --- o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:/Program Files/Java/jdk-11.0.2/bin/server;C:/Program Files/Java/jdk-11.0.2/bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.2\bin;C:\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;;C:\Users\akshaypgowda\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\akshaypgowda\AppData\Roaming\npm;C:\Users\akshaypgowda\go\bin;C:\Users\akshaypgowda\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;D:\Software\gradle-5.2.1\bin;D:\Software\sts-bundle\sts-3.9.7.RELEASE;;.]
+2019-03-23 12:43:53.065  INFO 764 [main] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-23 12:43:53.066 DEBUG 764 [main] --- o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-03-23 12:43:53.066  INFO 764 [main] --- o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6033 ms
+2019-03-23 12:43:53.872  WARN 764 [main] --- c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-23 12:43:53.872  INFO 764 [main] --- c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-23 12:43:53.909  INFO 764 [main] --- c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@43a4a9e5
+2019-03-23 12:43:56.332  INFO 764 [main] --- com.oshopgateway.filter.CORSFilter       : Implementation not required
+2019-03-23 12:43:56.801 DEBUG 764 [main] --- eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {oshopGatewayApplication=com.oshopgateway.OshopGatewayApplication$$EnhancerBySpringCGLIB$$67ff3f90@38c460e8}
+2019-03-23 12:43:57.012  INFO 764 [main] --- o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**'], []
+2019-03-23 12:43:57.107 DEBUG 764 [main] --- edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**']
+2019-03-23 12:43:57.139 DEBUG 764 [main] --- o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-03-23 12:43:57.143 DEBUG 764 [main] --- o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-03-23 12:43:57.146  INFO 764 [main] --- o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61a704d3, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a3cf824, org.springframework.security.web.header.HeaderWriterFilter@5e69cf07, org.springframework.security.web.authentication.logout.LogoutFilter@3d4ecc67, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@28367da7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6def0632, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2120bed, org.springframework.security.web.session.SessionManagementFilter@70c491b8, org.springframework.security.web.access.ExceptionTranslationFilter@1a7163e3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2bb717d7]
+2019-03-23 12:43:57.214  WARN 764 [main] --- c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-23 12:43:57.214  INFO 764 [main] --- c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-23 12:43:57.405 DEBUG 764 [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-03-23 12:43:57.781  INFO 764 [main] --- o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-23 12:43:57.843 DEBUG 764 [main] --- s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-03-23 12:43:58.032 DEBUG 764 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2019-03-23 12:43:58.079 DEBUG 764 [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-03-23 12:43:58.121 DEBUG 764 [main] --- .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-03-23 12:43:59.047  INFO 764 [main] --- o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-23 12:44:00.626  INFO 764 [main] --- o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
+2019-03-23 12:44:01.002  INFO 764 [main] --- o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-23 12:44:01.203  INFO 764 [main] --- com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-23 12:44:01.454  INFO 764 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-23 12:44:01.455  INFO 764 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-23 12:44:01.875  INFO 764 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-23 12:44:01.876  INFO 764 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-23 12:44:03.288  INFO 764 [main] --- c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-23 12:44:03.563  INFO 764 [main] --- com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-23 12:44:03.563  INFO 764 [main] --- com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-23 12:44:03.564  INFO 764 [main] --- com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-23 12:44:03.564  INFO 764 [main] --- com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-23 12:44:03.564  INFO 764 [main] --- com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-23 12:44:03.565  INFO 764 [main] --- com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-03-23 12:44:03.565  INFO 764 [main] --- com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-23 12:44:04.601  INFO 764 [main] --- com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-23 12:44:04.612  INFO 764 [main] --- com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-03-23 12:44:04.623  INFO 764 [main] --- c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-03-23 12:44:04.643  INFO 764 [main] --- com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553325244638 with initial instances count: 0
+2019-03-23 12:44:04.654  INFO 764 [main] --- o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVER with eureka with status UP
+2019-03-23 12:44:04.657  INFO 764 [main] --- com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553325244657, current=UP, previous=STARTING]
+2019-03-23 12:44:04.665  INFO 764 [DiscoveryClient-InstanceInfoReplicator-0] --- com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/Akshay:gateway-server:8765: registering service...
+2019-03-23 12:44:04.750  INFO 764 [main] --- o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8765"]
+2019-03-23 12:44:04.921  INFO 764 [main] --- o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8765 (http) with context path ''
+2019-03-23 12:44:04.925  INFO 764 [main] --- .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8765
+2019-03-23 12:44:04.939  INFO 764 [main] --- c.oshopgateway.OshopGatewayApplication   : Started OshopGatewayApplication in 22.163 seconds (JVM running for 24.639)
+2019-03-23 12:44:05.327  INFO 764 [DiscoveryClient-InstanceInfoReplicator-0] --- com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/Akshay:gateway-server:8765 - registration status: 204
+2019-03-23 12:44:34.614  INFO 764 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-23 12:44:34.615  INFO 764 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-23 12:44:34.615  INFO 764 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-23 12:44:34.616  INFO 764 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-23 12:44:34.617  INFO 764 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-23 12:44:34.617  INFO 764 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2019-03-23 12:44:34.617  INFO 764 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-23 12:44:34.797  INFO 764 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-23 12:45:40.378  INFO 764 [RMI TCP Connection(2)-127.0.0.1] --- inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-03-23 12:45:40.378  INFO 764 [RMI TCP Connection(3)-127.0.0.1] --- inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-03-23 12:45:40.382  INFO 764 [RMI TCP Connection(3)-127.0.0.1] --- o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GATEWAY-SERVER with eureka with status DOWN
+2019-03-23 12:45:40.383  WARN 764 [RMI TCP Connection(3)-127.0.0.1] --- com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553325340383, current=DOWN, previous=UP]
+2019-03-23 12:45:40.384  INFO 764 [DiscoveryClient-InstanceInfoReplicator-0] --- com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/Akshay:gateway-server:8765: registering service...
+2019-03-23 12:45:40.393  INFO 764 [RMI TCP Connection(3)-127.0.0.1] --- o.s.c.n.zuul.ZuulFilterInitializer       : Stopping filter initializer
+2019-03-23 12:45:40.409  INFO 764 [RMI TCP Connection(3)-127.0.0.1] --- o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-23 12:45:40.478  INFO 764 [RMI TCP Connection(3)-127.0.0.1] --- com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
