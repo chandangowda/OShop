@@ -6184,3 +6184,1091 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2019-03-25 18:15:47.861  INFO 15188 [RMI TCP Connection(3)-127.0.0.1] --- c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook removed for: NFLoadBalancer-PingTimer-auth-server
 2019-03-25 18:15:47.868  INFO 15188 [RMI TCP Connection(3)-127.0.0.1] --- o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2019-03-25 18:15:47.881  INFO 15188 [RMI TCP Connection(3)-127.0.0.1] --- com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-25 21:28:47.164  INFO 8820 [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$74a61596] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 21:28:47.579  INFO 8820 [main] --- c.oshopgateway.OshopGatewayApplication   : No active profile set, falling back to default profiles: default
+2019-03-25 21:28:48.391  WARN 8820 [main] --- o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-03-25 21:28:48.400  WARN 8820 [main] --- o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-03-25 21:28:48.598  INFO 8820 [main] --- o.s.cloud.context.scope.GenericScope     : BeanFactory id=78806afb-98a3-3aec-be8d-58b45b133ab2
+2019-03-25 21:28:48.800  INFO 8820 [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$74a61596] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 21:28:49.099  INFO 8820 [main] --- o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8765 (http)
+2019-03-25 21:28:49.114  INFO 8820 [main] --- o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8765"]
+2019-03-25 21:28:49.123  INFO 8820 [main] --- o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-25 21:28:49.124  INFO 8820 [main] --- org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-25 21:28:49.132  INFO 8820 [main] --- o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\nodejs\;C:\Users\chandangowda\AppData\Local\Microsoft\WindowsApps;;C:\Users\chandangowda\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chandangowda\AppData\Roaming\npm;D:\Software\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE;;.]
+2019-03-25 21:28:49.295  INFO 8820 [main] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-25 21:28:49.295 DEBUG 8820 [main] --- o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-03-25 21:28:49.295  INFO 8820 [main] --- o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1698 ms
+2019-03-25 21:28:49.533  WARN 8820 [main] --- c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-25 21:28:49.533  INFO 8820 [main] --- c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 21:28:49.543  INFO 8820 [main] --- c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@20440c6c
+2019-03-25 21:28:50.536 DEBUG 8820 [main] --- eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {oshopGatewayApplication=com.oshopgateway.OshopGatewayApplication$$EnhancerBySpringCGLIB$$7e6040d@51fe7f15}
+2019-03-25 21:28:50.592  INFO 8820 [main] --- o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**'], []
+2019-03-25 21:28:50.617 DEBUG 8820 [main] --- edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**']
+2019-03-25 21:28:50.623 DEBUG 8820 [main] --- o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-03-25 21:28:50.624 DEBUG 8820 [main] --- o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-03-25 21:28:50.625  INFO 8820 [main] --- o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a4c98d7, org.springframework.security.web.context.SecurityContextPersistenceFilter@505d2bac, org.springframework.security.web.header.HeaderWriterFilter@22b7ef2b, org.springframework.security.web.authentication.logout.LogoutFilter@36df4c26, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d969452, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11d2714a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@668a32a4, org.springframework.security.web.session.SessionManagementFilter@6684f7f2, org.springframework.security.web.access.ExceptionTranslationFilter@2353354a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@41bb1f09]
+2019-03-25 21:28:50.648  WARN 8820 [main] --- c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-25 21:28:50.648  INFO 8820 [main] --- c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 21:28:50.702 DEBUG 8820 [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-03-25 21:28:50.818  INFO 8820 [main] --- o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:28:50.836 DEBUG 8820 [main] --- s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-03-25 21:28:50.888 DEBUG 8820 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2019-03-25 21:28:50.904 DEBUG 8820 [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-03-25 21:28:50.918 DEBUG 8820 [main] --- .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-03-25 21:28:51.224  INFO 8820 [main] --- o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-25 21:28:51.841  INFO 8820 [main] --- o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
+2019-03-25 21:28:51.939  INFO 8820 [main] --- o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-25 21:28:51.982  INFO 8820 [main] --- com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-25 21:28:52.041  INFO 8820 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-25 21:28:52.042  INFO 8820 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-25 21:28:52.151  INFO 8820 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-25 21:28:52.151  INFO 8820 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-25 21:28:52.381  INFO 8820 [main] --- c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-25 21:28:52.484  INFO 8820 [main] --- com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-25 21:28:52.484  INFO 8820 [main] --- com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-25 21:28:52.485  INFO 8820 [main] --- com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-25 21:28:52.485  INFO 8820 [main] --- com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-25 21:28:52.485  INFO 8820 [main] --- com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-25 21:28:52.485  INFO 8820 [main] --- com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-03-25 21:28:52.485  INFO 8820 [main] --- com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-25 21:28:52.618  INFO 8820 [main] --- com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-25 21:28:52.620  INFO 8820 [main] --- com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-03-25 21:28:52.623  INFO 8820 [main] --- c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-03-25 21:28:52.627  INFO 8820 [main] --- com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553529532626 with initial instances count: 0
+2019-03-25 21:28:52.629  INFO 8820 [main] --- o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVER with eureka with status UP
+2019-03-25 21:28:52.630  INFO 8820 [main] --- com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553529532629, current=UP, previous=STARTING]
+2019-03-25 21:28:52.632  INFO 8820 [DiscoveryClient-InstanceInfoReplicator-0] --- com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-HAFTVUM:gateway-server:8765: registering service...
+2019-03-25 21:28:52.726  INFO 8820 [main] --- o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8765"]
+2019-03-25 21:28:52.762  INFO 8820 [main] --- o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8765 (http) with context path ''
+2019-03-25 21:28:52.764  INFO 8820 [main] --- .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8765
+2019-03-25 21:28:52.768  INFO 8820 [main] --- c.oshopgateway.OshopGatewayApplication   : Started OshopGatewayApplication in 6.58 seconds (JVM running for 7.34)
+2019-03-25 21:28:52.989  INFO 8820 [DiscoveryClient-InstanceInfoReplicator-0] --- com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-HAFTVUM:gateway-server:8765 - registration status: 204
+2019-03-25 21:29:22.623  INFO 8820 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-25 21:29:22.624  INFO 8820 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-25 21:29:22.625  INFO 8820 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-25 21:29:22.626  INFO 8820 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-25 21:29:22.627  INFO 8820 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-25 21:29:22.628  INFO 8820 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2019-03-25 21:29:22.629  INFO 8820 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-25 21:29:22.716  INFO 8820 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-25 21:33:52.490  INFO 8820 [AsyncResolver-bootstrap-executor-0] --- c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-25 21:38:52.493  INFO 8820 [AsyncResolver-bootstrap-executor-0] --- c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-25 21:39:59.614  INFO 8820 [http-nio-8765-exec-1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-25 21:39:59.614  INFO 8820 [http-nio-8765-exec-1] --- o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-25 21:39:59.614 DEBUG 8820 [http-nio-8765-exec-1] --- o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-03-25 21:39:59.622 DEBUG 8820 [http-nio-8765-exec-1] --- o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-03-25 21:39:59.622  INFO 8820 [http-nio-8765-exec-1] --- o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-03-25 21:39:59.632 DEBUG 8820 [http-nio-8765-exec-1] --- o.s.s.w.u.matcher.AntPathRequestMatcher  : Request '/auth-api/oauth/token' matched by universal pattern '/**'
+2019-03-25 21:39:59.632 DEBUG 8820 [http-nio-8765-exec-1] --- o.s.security.web.FilterChainProxy        : /auth-api/oauth/token has an empty filter list
+2019-03-25 21:39:59.638 DEBUG 8820 [http-nio-8765-exec-1] --- o.s.web.servlet.DispatcherServlet        : POST "/auth-api/oauth/token", parameters={masked}
+2019-03-25 21:39:59.896  INFO 8820 [http-nio-8765-exec-1] --- c.netflix.config.ChainedDynamicProperty  : Flipping property: auth-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-03-25 21:39:59.927  INFO 8820 [http-nio-8765-exec-1] --- c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-auth-server
+2019-03-25 21:39:59.927  INFO 8820 [http-nio-8765-exec-1] --- c.netflix.loadbalancer.BaseLoadBalancer  : Client: auth-server instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth-server,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-03-25 21:39:59.934  INFO 8820 [http-nio-8765-exec-1] --- c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2019-03-25 21:39:59.962  INFO 8820 [http-nio-8765-exec-1] --- c.netflix.config.ChainedDynamicProperty  : Flipping property: auth-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-03-25 21:39:59.963  INFO 8820 [http-nio-8765-exec-1] --- c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client auth-server initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth-server,current list of Servers=[192.168.0.104:8787],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.0.104:8787;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@12188cfa
+2019-03-25 21:39:59.988  WARN 8820 [http-nio-8765-exec-1] --- o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 60000ms for the command auth-server is set lower than the combination of the Ribbon read and connect timeout, 142000ms.
+2019-03-25 21:40:00.297 DEBUG 8820 [http-nio-8765-exec-1] --- o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-03-25 21:40:00.939  INFO 8820 [PollingServerListUpdater-0] --- c.netflix.config.ChainedDynamicProperty  : Flipping property: auth-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-03-25 21:41:09.244  INFO 8820 [RMI TCP Connection(22)-127.0.0.1] --- inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-03-25 21:41:09.245  INFO 8820 [RMI TCP Connection(22)-127.0.0.1] --- o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GATEWAY-SERVER with eureka with status DOWN
+2019-03-25 21:41:09.245  WARN 8820 [RMI TCP Connection(22)-127.0.0.1] --- com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553530269245, current=DOWN, previous=UP]
+2019-03-25 21:41:09.245  INFO 8820 [DiscoveryClient-InstanceInfoReplicator-0] --- com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-HAFTVUM:gateway-server:8765: registering service...
+2019-03-25 21:41:09.248  INFO 8820 [RMI TCP Connection(22)-127.0.0.1] --- o.s.c.n.zuul.ZuulFilterInitializer       : Stopping filter initializer
+2019-03-25 21:41:09.250  INFO 8820 [RMI TCP Connection(22)-127.0.0.1] --- c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook removed for: NFLoadBalancer-PingTimer-auth-server
+2019-03-25 21:41:09.256  INFO 8820 [RMI TCP Connection(22)-127.0.0.1] --- o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:41:09.269  INFO 8820 [RMI TCP Connection(22)-127.0.0.1] --- com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-25 21:41:20.476  INFO 9388 [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4033c4f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 21:41:20.730  INFO 9388 [main] --- c.oshopgateway.OshopGatewayApplication   : No active profile set, falling back to default profiles: default
+2019-03-25 21:41:21.822  WARN 9388 [main] --- o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-03-25 21:41:21.837  WARN 9388 [main] --- o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-03-25 21:41:22.220  INFO 9388 [main] --- o.s.cloud.context.scope.GenericScope     : BeanFactory id=78806afb-98a3-3aec-be8d-58b45b133ab2
+2019-03-25 21:41:22.577  INFO 9388 [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4033c4f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 21:41:23.092  INFO 9388 [main] --- o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8777 (http)
+2019-03-25 21:41:23.117  INFO 9388 [main] --- o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8777"]
+2019-03-25 21:41:23.134  INFO 9388 [main] --- o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-25 21:41:23.135  INFO 9388 [main] --- org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-25 21:41:23.147  INFO 9388 [main] --- o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\nodejs\;C:\Users\chandangowda\AppData\Local\Microsoft\WindowsApps;;C:\Users\chandangowda\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chandangowda\AppData\Roaming\npm;D:\Software\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE;;.]
+2019-03-25 21:41:23.547  INFO 9388 [main] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-25 21:41:23.548 DEBUG 9388 [main] --- o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-03-25 21:41:23.548  INFO 9388 [main] --- o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2800 ms
+2019-03-25 21:41:23.833  WARN 9388 [main] --- c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-25 21:41:23.834  INFO 9388 [main] --- c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 21:41:23.850  INFO 9388 [main] --- c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3af10d0b
+2019-03-25 21:41:25.451 DEBUG 9388 [main] --- eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {oshopGatewayApplication=com.oshopgateway.OshopGatewayApplication$$EnhancerBySpringCGLIB$$d373b36f@1cba0321}
+2019-03-25 21:41:25.537  INFO 9388 [main] --- o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**'], []
+2019-03-25 21:41:25.593 DEBUG 9388 [main] --- edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**']
+2019-03-25 21:41:25.607 DEBUG 9388 [main] --- o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-03-25 21:41:25.609 DEBUG 9388 [main] --- o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-03-25 21:41:25.612  INFO 9388 [main] --- o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7cc1f72c, org.springframework.security.web.context.SecurityContextPersistenceFilter@25d911a, org.springframework.security.web.header.HeaderWriterFilter@45dde6ac, org.springframework.security.web.authentication.logout.LogoutFilter@5d7f1e59, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@489f62a3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@639cb788, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b7068d8, org.springframework.security.web.session.SessionManagementFilter@11e834ad, org.springframework.security.web.access.ExceptionTranslationFilter@5e385b6f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2154652c]
+2019-03-25 21:41:25.668  WARN 9388 [main] --- c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-25 21:41:25.668  INFO 9388 [main] --- c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 21:41:25.770 DEBUG 9388 [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-03-25 21:41:25.988  INFO 9388 [main] --- o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:41:26.039 DEBUG 9388 [main] --- s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-03-25 21:41:26.126 DEBUG 9388 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2019-03-25 21:41:26.148 DEBUG 9388 [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-03-25 21:41:26.167 DEBUG 9388 [main] --- .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-03-25 21:41:26.658  INFO 9388 [main] --- o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-25 21:41:27.416  INFO 9388 [main] --- o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
+2019-03-25 21:41:27.559  INFO 9388 [main] --- o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-25 21:41:27.631  INFO 9388 [main] --- com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-25 21:41:27.722  INFO 9388 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-25 21:41:27.723  INFO 9388 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-25 21:41:27.932  INFO 9388 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-25 21:41:27.933  INFO 9388 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-25 21:41:28.330  INFO 9388 [main] --- c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-25 21:41:28.541  INFO 9388 [main] --- com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-25 21:41:28.541  INFO 9388 [main] --- com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-25 21:41:28.542  INFO 9388 [main] --- com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-25 21:41:28.542  INFO 9388 [main] --- com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-25 21:41:28.542  INFO 9388 [main] --- com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-25 21:41:28.542  INFO 9388 [main] --- com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-03-25 21:41:28.542  INFO 9388 [main] --- com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-25 21:41:30.972  INFO 9388 [main] --- com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-25 21:41:30.975  INFO 9388 [main] --- com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-03-25 21:41:30.980  INFO 9388 [main] --- c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-03-25 21:41:30.987  INFO 9388 [main] --- com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553530290985 with initial instances count: 0
+2019-03-25 21:41:30.990  INFO 9388 [main] --- o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVER with eureka with status UP
+2019-03-25 21:41:30.992  INFO 9388 [main] --- com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553530290992, current=UP, previous=STARTING]
+2019-03-25 21:41:30.995  INFO 9388 [DiscoveryClient-InstanceInfoReplicator-0] --- com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-HAFTVUM:gateway-server:8777: registering service...
+2019-03-25 21:41:31.024  INFO 9388 [main] --- o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8777"]
+2019-03-25 21:41:31.063  INFO 9388 [main] --- o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8777 (http) with context path ''
+2019-03-25 21:41:31.064  INFO 9388 [main] --- .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8777
+2019-03-25 21:41:31.067  INFO 9388 [main] --- c.oshopgateway.OshopGatewayApplication   : Started OshopGatewayApplication in 11.563 seconds (JVM running for 12.752)
+2019-03-25 21:41:31.206  INFO 9388 [DiscoveryClient-InstanceInfoReplicator-0] --- com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-HAFTVUM:gateway-server:8777 - registration status: 204
+2019-03-25 21:42:00.978  INFO 9388 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-25 21:42:00.981  INFO 9388 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-25 21:42:00.984  INFO 9388 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-25 21:42:00.985  INFO 9388 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-25 21:42:00.986  INFO 9388 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-25 21:42:00.990  INFO 9388 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2019-03-25 21:42:00.991  INFO 9388 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-25 21:42:01.100  INFO 9388 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-25 21:43:25.378  INFO 9388 [http-nio-8777-exec-1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-25 21:43:25.378  INFO 9388 [http-nio-8777-exec-1] --- o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-25 21:43:25.378 DEBUG 9388 [http-nio-8777-exec-1] --- o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-03-25 21:43:25.386 DEBUG 9388 [http-nio-8777-exec-1] --- o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-03-25 21:43:25.386  INFO 9388 [http-nio-8777-exec-1] --- o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-03-25 21:43:25.396 DEBUG 9388 [http-nio-8777-exec-1] --- o.s.s.w.u.matcher.AntPathRequestMatcher  : Request '/auth-api/oauth/token' matched by universal pattern '/**'
+2019-03-25 21:43:25.397 DEBUG 9388 [http-nio-8777-exec-1] --- o.s.security.web.FilterChainProxy        : /auth-api/oauth/token has an empty filter list
+2019-03-25 21:43:25.402 DEBUG 9388 [http-nio-8777-exec-1] --- o.s.web.servlet.DispatcherServlet        : POST "/auth-api/oauth/token", parameters={masked}
+2019-03-25 21:43:25.603  INFO 9388 [http-nio-8777-exec-1] --- c.netflix.config.ChainedDynamicProperty  : Flipping property: auth-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-03-25 21:43:25.671  INFO 9388 [http-nio-8777-exec-1] --- c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-auth-server
+2019-03-25 21:43:25.672  INFO 9388 [http-nio-8777-exec-1] --- c.netflix.loadbalancer.BaseLoadBalancer  : Client: auth-server instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth-server,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-03-25 21:43:25.678  INFO 9388 [http-nio-8777-exec-1] --- c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2019-03-25 21:43:25.706  INFO 9388 [http-nio-8777-exec-1] --- c.netflix.config.ChainedDynamicProperty  : Flipping property: auth-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-03-25 21:43:25.709  INFO 9388 [http-nio-8777-exec-1] --- c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client auth-server initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth-server,current list of Servers=[192.168.0.104:8787],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.0.104:8787;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@3312944f
+2019-03-25 21:43:25.732  WARN 9388 [http-nio-8777-exec-1] --- o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 60000ms for the command auth-server is set lower than the combination of the Ribbon read and connect timeout, 142000ms.
+2019-03-25 21:43:26.035 DEBUG 9388 [http-nio-8777-exec-1] --- o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-03-25 21:43:26.683  INFO 9388 [PollingServerListUpdater-0] --- c.netflix.config.ChainedDynamicProperty  : Flipping property: auth-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-03-25 21:46:28.546  INFO 9388 [AsyncResolver-bootstrap-executor-0] --- c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-25 21:51:28.549  INFO 9388 [AsyncResolver-bootstrap-executor-0] --- c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-25 21:56:28.552  INFO 9388 [AsyncResolver-bootstrap-executor-0] --- c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-25 22:01:28.553  INFO 9388 [AsyncResolver-bootstrap-executor-0] --- c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-25 22:06:28.555  INFO 9388 [AsyncResolver-bootstrap-executor-0] --- c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-25 22:11:28.556  INFO 9388 [AsyncResolver-bootstrap-executor-0] --- c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-25 22:16:28.557  INFO 9388 [AsyncResolver-bootstrap-executor-0] --- c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-25 22:21:28.560  INFO 9388 [AsyncResolver-bootstrap-executor-0] --- c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-25 22:26:28.561  INFO 9388 [AsyncResolver-bootstrap-executor-0] --- c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-25 22:27:39.379  INFO 9388 [RMI TCP Connection(56)-127.0.0.1] --- inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-03-25 22:27:39.380  INFO 9388 [RMI TCP Connection(56)-127.0.0.1] --- o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GATEWAY-SERVER with eureka with status DOWN
+2019-03-25 22:27:39.380  WARN 9388 [RMI TCP Connection(56)-127.0.0.1] --- com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553533059380, current=DOWN, previous=UP]
+2019-03-25 22:27:39.380  INFO 9388 [DiscoveryClient-InstanceInfoReplicator-0] --- com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-HAFTVUM:gateway-server:8777: registering service...
+2019-03-25 22:27:39.383  INFO 9388 [RMI TCP Connection(56)-127.0.0.1] --- o.s.c.n.zuul.ZuulFilterInitializer       : Stopping filter initializer
+2019-03-25 22:27:39.386  INFO 9388 [RMI TCP Connection(56)-127.0.0.1] --- c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook removed for: NFLoadBalancer-PingTimer-auth-server
+2019-03-25 22:27:39.393  INFO 9388 [RMI TCP Connection(56)-127.0.0.1] --- o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 22:27:39.406  INFO 9388 [RMI TCP Connection(56)-127.0.0.1] --- com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-25 22:27:41.396 ERROR 9388 [DiscoveryClient-InstanceInfoReplicator-0] --- c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 29 common frames omitted
+2019-03-25 22:27:41.397  WARN 9388 [DiscoveryClient-InstanceInfoReplicator-0] --- c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-03-25 22:54:04.322  INFO 4668 [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$795689bb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 22:54:04.686  INFO 4668 [main] --- c.oshopgateway.OshopGatewayApplication   : No active profile set, falling back to default profiles: default
+2019-03-25 22:54:05.873  WARN 4668 [main] --- o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-03-25 22:54:05.903  WARN 4668 [main] --- o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-03-25 22:54:06.248  INFO 4668 [main] --- o.s.cloud.context.scope.GenericScope     : BeanFactory id=78806afb-98a3-3aec-be8d-58b45b133ab2
+2019-03-25 22:54:06.596  INFO 4668 [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$795689bb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 22:54:07.254  INFO 4668 [main] --- o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8777 (http)
+2019-03-25 22:54:07.292  INFO 4668 [main] --- o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8777"]
+2019-03-25 22:54:07.310  INFO 4668 [main] --- o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-25 22:54:07.311  INFO 4668 [main] --- org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-25 22:54:07.323  INFO 4668 [main] --- o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\nodejs\;C:\Users\chandangowda\AppData\Local\Microsoft\WindowsApps;;C:\Users\chandangowda\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chandangowda\AppData\Roaming\npm;D:\Software\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE;;.]
+2019-03-25 22:54:07.746  INFO 4668 [main] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-25 22:54:07.747 DEBUG 4668 [main] --- o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-03-25 22:54:07.747  INFO 4668 [main] --- o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3027 ms
+2019-03-25 22:54:08.093  WARN 4668 [main] --- c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-25 22:54:08.094  INFO 4668 [main] --- c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 22:54:08.107  INFO 4668 [main] --- c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@543fe698
+2019-03-25 22:54:09.719 DEBUG 4668 [main] --- eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {oshopGatewayApplication=com.oshopgateway.OshopGatewayApplication$$EnhancerBySpringCGLIB$$c967832@11399548}
+2019-03-25 22:54:09.861  INFO 4668 [main] --- o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**'], []
+2019-03-25 22:54:09.895 DEBUG 4668 [main] --- edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**']
+2019-03-25 22:54:09.902 DEBUG 4668 [main] --- o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-03-25 22:54:09.904 DEBUG 4668 [main] --- o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-03-25 22:54:09.905  INFO 4668 [main] --- o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54be6213, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e58f697, org.springframework.security.web.header.HeaderWriterFilter@61d2f267, org.springframework.security.web.authentication.logout.LogoutFilter@52ca0ad4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5cc3e49b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64fdcf99, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@48a46b0f, org.springframework.security.web.session.SessionManagementFilter@2c34402, org.springframework.security.web.access.ExceptionTranslationFilter@782ac148, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@141aba65]
+2019-03-25 22:54:09.940  WARN 4668 [main] --- c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-25 22:54:09.940  INFO 4668 [main] --- c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 22:54:10.133 DEBUG 4668 [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-03-25 22:54:10.429  INFO 4668 [main] --- o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 22:54:10.458 DEBUG 4668 [main] --- s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-03-25 22:54:10.583 DEBUG 4668 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2019-03-25 22:54:10.603 DEBUG 4668 [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-03-25 22:54:10.622 DEBUG 4668 [main] --- .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-03-25 22:54:11.047  INFO 4668 [main] --- o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-25 22:54:11.774  INFO 4668 [main] --- o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
+2019-03-25 22:54:11.902  INFO 4668 [main] --- o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-25 22:54:11.992  INFO 4668 [main] --- com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-25 22:54:12.100  INFO 4668 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-25 22:54:12.100  INFO 4668 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-25 22:54:12.271  INFO 4668 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-25 22:54:12.271  INFO 4668 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-25 22:54:12.725  INFO 4668 [main] --- c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-25 22:54:12.867  INFO 4668 [main] --- com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-25 22:54:12.867  INFO 4668 [main] --- com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-25 22:54:12.867  INFO 4668 [main] --- com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-25 22:54:12.867  INFO 4668 [main] --- com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-25 22:54:12.867  INFO 4668 [main] --- com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-25 22:54:12.867  INFO 4668 [main] --- com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-03-25 22:54:12.868  INFO 4668 [main] --- com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-25 22:54:13.013  INFO 4668 [main] --- com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-25 22:54:13.017  INFO 4668 [main] --- com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-03-25 22:54:13.024  INFO 4668 [main] --- c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-03-25 22:54:13.031  INFO 4668 [main] --- com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553534653030 with initial instances count: 0
+2019-03-25 22:54:13.035  INFO 4668 [main] --- o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVER with eureka with status UP
+2019-03-25 22:54:13.036  INFO 4668 [main] --- com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553534653036, current=UP, previous=STARTING]
+2019-03-25 22:54:13.039  INFO 4668 [DiscoveryClient-InstanceInfoReplicator-0] --- com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-HAFTVUM:gateway-server:8777: registering service...
+2019-03-25 22:54:13.069  INFO 4668 [main] --- o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8777"]
+2019-03-25 22:54:13.109  INFO 4668 [main] --- o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8777 (http) with context path ''
+2019-03-25 22:54:13.110  INFO 4668 [main] --- .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8777
+2019-03-25 22:54:13.114  INFO 4668 [main] --- c.oshopgateway.OshopGatewayApplication   : Started OshopGatewayApplication in 10.129 seconds (JVM running for 11.229)
+2019-03-25 22:54:13.142  INFO 4668 [DiscoveryClient-InstanceInfoReplicator-0] --- com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-HAFTVUM:gateway-server:8777 - registration status: 204
+2019-03-25 22:54:43.019  INFO 4668 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-25 22:54:43.020  INFO 4668 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-25 22:54:43.021  INFO 4668 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-25 22:54:43.022  INFO 4668 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-25 22:54:43.022  INFO 4668 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-25 22:54:43.022  INFO 4668 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2019-03-25 22:54:43.023  INFO 4668 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-25 22:54:43.196  INFO 4668 [DiscoveryClient-CacheRefreshExecutor-0] --- com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-25 22:55:21.214  INFO 4668 [http-nio-8777-exec-2] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-25 22:55:21.215  INFO 4668 [http-nio-8777-exec-2] --- o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-25 22:55:21.215 DEBUG 4668 [http-nio-8777-exec-2] --- o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-03-25 22:55:21.224 DEBUG 4668 [http-nio-8777-exec-2] --- o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-03-25 22:55:21.224  INFO 4668 [http-nio-8777-exec-2] --- o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-03-25 22:55:21.234 DEBUG 4668 [http-nio-8777-exec-2] --- o.s.s.w.u.matcher.AntPathRequestMatcher  : Request '/auth-api/oauth/token' matched by universal pattern '/**'
+2019-03-25 22:55:21.234 DEBUG 4668 [http-nio-8777-exec-2] --- o.s.security.web.FilterChainProxy        : /auth-api/oauth/token has an empty filter list
+2019-03-25 22:55:21.240 DEBUG 4668 [http-nio-8777-exec-2] --- o.s.web.servlet.DispatcherServlet        : POST "/auth-api/oauth/token", parameters={masked}
+2019-03-25 22:55:21.520  INFO 4668 [http-nio-8777-exec-2] --- c.netflix.config.ChainedDynamicProperty  : Flipping property: auth-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-03-25 22:55:21.549  INFO 4668 [http-nio-8777-exec-2] --- c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-auth-server
+2019-03-25 22:55:21.550  INFO 4668 [http-nio-8777-exec-2] --- c.netflix.loadbalancer.BaseLoadBalancer  : Client: auth-server instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth-server,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-03-25 22:55:21.556  INFO 4668 [http-nio-8777-exec-2] --- c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2019-03-25 22:55:21.586  INFO 4668 [http-nio-8777-exec-2] --- c.netflix.config.ChainedDynamicProperty  : Flipping property: auth-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-03-25 22:55:21.588  INFO 4668 [http-nio-8777-exec-2] --- c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client auth-server initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth-server,current list of Servers=[192.168.0.104:8787],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.0.104:8787;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@78088448
+2019-03-25 22:55:21.615  WARN 4668 [http-nio-8777-exec-2] --- o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 60000ms for the command auth-server is set lower than the combination of the Ribbon read and connect timeout, 142000ms.
+2019-03-25 22:55:22.345 DEBUG 4668 [http-nio-8777-exec-2] --- o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-03-25 22:55:22.561  INFO 4668 [PollingServerListUpdater-0] --- c.netflix.config.ChainedDynamicProperty  : Flipping property: auth-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-03-25 22:55:32.297 DEBUG 4668 [http-nio-8777-exec-3] --- o.s.s.w.u.matcher.AntPathRequestMatcher  : Request '/product-api/test123' matched by universal pattern '/**'
+2019-03-25 22:55:32.297 DEBUG 4668 [http-nio-8777-exec-3] --- o.s.security.web.FilterChainProxy        : /product-api/test123?access_token=6db7a025-51a1-41c6-ac8e-cb135f27c431 has an empty filter list
+2019-03-25 22:55:32.298 DEBUG 4668 [http-nio-8777-exec-3] --- o.s.web.servlet.DispatcherServlet        : GET "/product-api/test123?access_token=6db7a025-51a1-41c6-ac8e-cb135f27c431", parameters={masked}
+2019-03-25 22:55:32.359  INFO 4668 [http-nio-8777-exec-3] --- c.netflix.config.ChainedDynamicProperty  : Flipping property: product-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-03-25 22:55:32.361  INFO 4668 [http-nio-8777-exec-3] --- c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-product-api
+2019-03-25 22:55:32.362  INFO 4668 [http-nio-8777-exec-3] --- c.netflix.loadbalancer.BaseLoadBalancer  : Client: product-api instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=product-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-03-25 22:55:32.364  INFO 4668 [http-nio-8777-exec-3] --- c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2019-03-25 22:55:32.364  INFO 4668 [http-nio-8777-exec-3] --- c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client product-api initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=product-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@5e06b883
+2019-03-25 22:55:32.393  WARN 4668 [http-nio-8777-exec-3] --- o.s.c.n.z.filters.post.SendErrorFilter   : Error during filtering
+com.netflix.zuul.exception.ZuulException: Forwarding error
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.handleException(RibbonRoutingFilter.java:198)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:173)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.run(RibbonRoutingFilter.java:119)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.route(FilterProcessor.java:118)
+	at com.netflix.zuul.ZuulRunner.route(ZuulRunner.java:96)
+	at com.netflix.zuul.http.ZuulServlet.route(ZuulServlet.java:116)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:81)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:45)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:209)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.netflix.client.ClientException: Load balancer does not have available server for client: product-api
+	at com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:483)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
+	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
+	at rx.Subscriber.setProducer(Subscriber.java:209)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10247)
+	at rx.Observable.subscribe(Observable.java:10214)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:444)
+	at rx.observables.BlockingObservable.single(BlockingObservable.java:341)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:221)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:55)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:302)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:298)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:48)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:33)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10247)
+	at rx.Observable.subscribe(Observable.java:10214)
+	at rx.internal.operators.BlockingOperatorToFuture.toFuture(BlockingOperatorToFuture.java:51)
+	at rx.observables.BlockingObservable.toFuture(BlockingObservable.java:411)
+	at com.netflix.hystrix.HystrixCommand.queue(HystrixCommand.java:378)
+	at com.netflix.hystrix.HystrixCommand.execute(HystrixCommand.java:344)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:167)
+	... 70 common frames omitted
+2019-03-25 22:55:32.397 DEBUG 4668 [http-nio-8777-exec-3] --- o.s.web.servlet.DispatcherServlet        : "FORWARD" dispatch for GET "/error?access_token=6db7a025-51a1-41c6-ac8e-cb135f27c431", parameters={masked}
+2019-03-25 22:55:32.409 DEBUG 4668 [http-nio-8777-exec-3] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-25 22:55:32.434 DEBUG 4668 [http-nio-8777-exec-3] --- o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-03-25 22:55:32.435 DEBUG 4668 [http-nio-8777-exec-3] --- o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Mar 25 22:55:32 IST 2019, status=500, error=Internal Server Error, message=GENERAL}]
+2019-03-25 22:55:32.443 DEBUG 4668 [http-nio-8777-exec-3] --- o.s.web.servlet.DispatcherServlet        : Exiting from "FORWARD" dispatch, status 500
+2019-03-25 22:55:32.444 DEBUG 4668 [http-nio-8777-exec-3] --- o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2019-03-25 22:56:21.470 DEBUG 4668 [http-nio-8777-exec-4] --- o.s.s.w.u.matcher.AntPathRequestMatcher  : Request '/product-api/test123' matched by universal pattern '/**'
+2019-03-25 22:56:21.470 DEBUG 4668 [http-nio-8777-exec-4] --- o.s.security.web.FilterChainProxy        : /product-api/test123?access_token=6db7a025-51a1-41c6-ac8e-cb135f27c431 has an empty filter list
+2019-03-25 22:56:21.471 DEBUG 4668 [http-nio-8777-exec-4] --- o.s.web.servlet.DispatcherServlet        : GET "/product-api/test123?access_token=6db7a025-51a1-41c6-ac8e-cb135f27c431", parameters={masked}
+2019-03-25 22:56:21.476  WARN 4668 [http-nio-8777-exec-4] --- o.s.c.n.z.filters.post.SendErrorFilter   : Error during filtering
+com.netflix.zuul.exception.ZuulException: Forwarding error
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.handleException(RibbonRoutingFilter.java:198)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:173)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.run(RibbonRoutingFilter.java:119)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.route(FilterProcessor.java:118)
+	at com.netflix.zuul.ZuulRunner.route(ZuulRunner.java:96)
+	at com.netflix.zuul.http.ZuulServlet.route(ZuulServlet.java:116)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:81)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:45)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:209)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.netflix.client.ClientException: Load balancer does not have available server for client: product-api
+	at com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:483)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
+	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
+	at rx.Subscriber.setProducer(Subscriber.java:209)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10247)
+	at rx.Observable.subscribe(Observable.java:10214)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:444)
+	at rx.observables.BlockingObservable.single(BlockingObservable.java:341)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:221)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:55)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:302)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:298)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:48)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:33)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10247)
+	at rx.Observable.subscribe(Observable.java:10214)
+	at rx.internal.operators.BlockingOperatorToFuture.toFuture(BlockingOperatorToFuture.java:51)
+	at rx.observables.BlockingObservable.toFuture(BlockingObservable.java:411)
+	at com.netflix.hystrix.HystrixCommand.queue(HystrixCommand.java:378)
+	at com.netflix.hystrix.HystrixCommand.execute(HystrixCommand.java:344)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:167)
+	... 70 common frames omitted
+2019-03-25 22:56:21.477 DEBUG 4668 [http-nio-8777-exec-4] --- o.s.web.servlet.DispatcherServlet        : "FORWARD" dispatch for GET "/error?access_token=6db7a025-51a1-41c6-ac8e-cb135f27c431", parameters={masked}
+2019-03-25 22:56:21.478 DEBUG 4668 [http-nio-8777-exec-4] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-25 22:56:21.479 DEBUG 4668 [http-nio-8777-exec-4] --- o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-03-25 22:56:21.479 DEBUG 4668 [http-nio-8777-exec-4] --- o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Mar 25 22:56:21 IST 2019, status=500, error=Internal Server Error, message=GENERAL}]
+2019-03-25 22:56:21.480 DEBUG 4668 [http-nio-8777-exec-4] --- o.s.web.servlet.DispatcherServlet        : Exiting from "FORWARD" dispatch, status 500
+2019-03-25 22:56:21.481 DEBUG 4668 [http-nio-8777-exec-4] --- o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2019-03-25 22:59:10.382 DEBUG 4668 [http-nio-8777-exec-7] --- o.s.s.w.u.matcher.AntPathRequestMatcher  : Request '/product-api/test123' matched by universal pattern '/**'
+2019-03-25 22:59:10.382 DEBUG 4668 [http-nio-8777-exec-7] --- o.s.security.web.FilterChainProxy        : /product-api/test123?access_token=6db7a025-51a1-41c6-ac8e-cb135f27c431 has an empty filter list
+2019-03-25 22:59:10.383 DEBUG 4668 [http-nio-8777-exec-7] --- o.s.web.servlet.DispatcherServlet        : GET "/product-api/test123?access_token=6db7a025-51a1-41c6-ac8e-cb135f27c431", parameters={masked}
+2019-03-25 22:59:10.389  WARN 4668 [http-nio-8777-exec-7] --- o.s.c.n.z.filters.post.SendErrorFilter   : Error during filtering
+com.netflix.zuul.exception.ZuulException: Forwarding error
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.handleException(RibbonRoutingFilter.java:198)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:173)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.run(RibbonRoutingFilter.java:119)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.route(FilterProcessor.java:118)
+	at com.netflix.zuul.ZuulRunner.route(ZuulRunner.java:96)
+	at com.netflix.zuul.http.ZuulServlet.route(ZuulServlet.java:116)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:81)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:45)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:209)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.netflix.client.ClientException: Load balancer does not have available server for client: product-api
+	at com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:483)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
+	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
+	at rx.Subscriber.setProducer(Subscriber.java:209)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10247)
+	at rx.Observable.subscribe(Observable.java:10214)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:444)
+	at rx.observables.BlockingObservable.single(BlockingObservable.java:341)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:221)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:55)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:302)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:298)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:48)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:33)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10247)
+	at rx.Observable.subscribe(Observable.java:10214)
+	at rx.internal.operators.BlockingOperatorToFuture.toFuture(BlockingOperatorToFuture.java:51)
+	at rx.observables.BlockingObservable.toFuture(BlockingObservable.java:411)
+	at com.netflix.hystrix.HystrixCommand.queue(HystrixCommand.java:378)
+	at com.netflix.hystrix.HystrixCommand.execute(HystrixCommand.java:344)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:167)
+	... 70 common frames omitted
+2019-03-25 22:59:10.391 DEBUG 4668 [http-nio-8777-exec-7] --- o.s.web.servlet.DispatcherServlet        : "FORWARD" dispatch for GET "/error?access_token=6db7a025-51a1-41c6-ac8e-cb135f27c431", parameters={masked}
+2019-03-25 22:59:10.394 DEBUG 4668 [http-nio-8777-exec-7] --- s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-25 22:59:10.395 DEBUG 4668 [http-nio-8777-exec-7] --- o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-03-25 22:59:10.396 DEBUG 4668 [http-nio-8777-exec-7] --- o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Mar 25 22:59:10 IST 2019, status=500, error=Internal Server Error, message=GENERAL}]
+2019-03-25 22:59:10.397 DEBUG 4668 [http-nio-8777-exec-7] --- o.s.web.servlet.DispatcherServlet        : Exiting from "FORWARD" dispatch, status 500
+2019-03-25 22:59:10.397 DEBUG 4668 [http-nio-8777-exec-7] --- o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2019-03-25 22:59:12.873  INFO 4668 [AsyncResolver-bootstrap-executor-0] --- c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-25 23:01:01.174  INFO 4668 [RMI TCP Connection(14)-127.0.0.1] --- inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-03-25 23:01:01.174  INFO 4668 [RMI TCP Connection(14)-127.0.0.1] --- o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GATEWAY-SERVER with eureka with status DOWN
+2019-03-25 23:01:01.174  WARN 4668 [RMI TCP Connection(14)-127.0.0.1] --- com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553535061174, current=DOWN, previous=UP]
+2019-03-25 23:01:01.175  INFO 4668 [DiscoveryClient-InstanceInfoReplicator-0] --- com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-HAFTVUM:gateway-server:8777: registering service...
+2019-03-25 23:01:01.177  INFO 4668 [RMI TCP Connection(14)-127.0.0.1] --- o.s.c.n.zuul.ZuulFilterInitializer       : Stopping filter initializer
+2019-03-25 23:01:01.180  INFO 4668 [RMI TCP Connection(14)-127.0.0.1] --- c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook removed for: NFLoadBalancer-PingTimer-auth-server
+2019-03-25 23:01:01.183  INFO 4668 [DiscoveryClient-InstanceInfoReplicator-0] --- com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-HAFTVUM:gateway-server:8777 - registration status: 204
+2019-03-25 23:01:01.185  INFO 4668 [RMI TCP Connection(14)-127.0.0.1] --- c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook removed for: NFLoadBalancer-PingTimer-product-api
+2019-03-25 23:01:01.190  INFO 4668 [RMI TCP Connection(14)-127.0.0.1] --- o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 23:01:01.204  INFO 4668 [RMI TCP Connection(14)-127.0.0.1] --- com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-25 23:01:04.207  INFO 4668 [RMI TCP Connection(14)-127.0.0.1] --- com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-03-25 23:01:04.228  INFO 4668 [RMI TCP Connection(14)-127.0.0.1] --- com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-HAFTVUM:gateway-server:8777 - deregister  status: 200
+2019-03-25 23:01:04.254  INFO 4668 [RMI TCP Connection(14)-127.0.0.1] --- com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-25 23:01:04.257  INFO 4668 [RMI TCP Connection(14)-127.0.0.1] --- o.a.coyote.http11.Http11NioProtocol      : Pausing ProtocolHandler ["http-nio-8777"]
+2019-03-25 23:01:04.505  INFO 4668 [RMI TCP Connection(14)-127.0.0.1] --- o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-03-25 23:01:04.509  INFO 4668 [RMI TCP Connection(14)-127.0.0.1] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2019-03-25 23:01:04.517  WARN 4668 [RMI TCP Connection(14)-127.0.0.1] --- o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2019-03-25 23:01:04.518  WARN 4668 [RMI TCP Connection(14)-127.0.0.1] --- o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [expiringMap-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2019-03-25 23:01:04.519  WARN 4668 [RMI TCP Connection(14)-127.0.0.1] --- o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [PollingServerListUpdater-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2019-03-25 23:01:04.520  WARN 4668 [RMI TCP Connection(14)-127.0.0.1] --- o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DataPublisher] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2019-03-25 23:01:04.521  WARN 4668 [RMI TCP Connection(14)-127.0.0.1] --- o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxScheduledExecutorPool-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2019-03-25 23:01:04.522  WARN 4668 [RMI TCP Connection(14)-127.0.0.1] --- o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxScheduledExecutorPool-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2019-03-25 23:01:04.524  WARN 4668 [RMI TCP Connection(14)-127.0.0.1] --- o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxComputationScheduler-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2019-03-25 23:01:04.526  WARN 4668 [RMI TCP Connection(14)-127.0.0.1] --- o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [PollingServerListUpdater-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2019-03-25 23:01:04.527  WARN 4668 [RMI TCP Connection(14)-127.0.0.1] --- o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxComputationScheduler-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2019-03-25 23:01:04.530  INFO 4668 [RMI TCP Connection(14)-127.0.0.1] --- o.a.coyote.http11.Http11NioProtocol      : Stopping ProtocolHandler ["http-nio-8777"]
+2019-03-25 23:01:04.536  INFO 4668 [RMI TCP Connection(14)-127.0.0.1] --- o.a.coyote.http11.Http11NioProtocol      : Destroying ProtocolHandler ["http-nio-8777"]
+2019-03-25 23:01:04.545  INFO 4668 [Thread-18] --- c.n.l.PollingServerListUpdater           : Shutting down the Executor Pool for PollingServerListUpdater
+2019-03-25 23:01:17.931  INFO 6772 [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e9b96782] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 23:01:18.213  INFO 6772 [main] --- c.oshopgateway.OshopGatewayApplication   : No active profile set, falling back to default profiles: default
+2019-03-25 23:01:19.279  WARN 6772 [main] --- o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-03-25 23:01:19.298  WARN 6772 [main] --- o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-03-25 23:01:19.537  INFO 6772 [main] --- o.s.cloud.context.scope.GenericScope     : BeanFactory id=78806afb-98a3-3aec-be8d-58b45b133ab2
+2019-03-25 23:01:19.766  INFO 6772 [main] --- trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e9b96782] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 23:01:20.081  INFO 6772 [main] --- o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8777 (http)
+2019-03-25 23:01:20.095  INFO 6772 [main] --- o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8777"]
+2019-03-25 23:01:20.104  INFO 6772 [main] --- o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-25 23:01:20.105  INFO 6772 [main] --- org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-25 23:01:20.112  INFO 6772 [main] --- o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\nodejs\;C:\Users\chandangowda\AppData\Local\Microsoft\WindowsApps;;C:\Users\chandangowda\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chandangowda\AppData\Roaming\npm;D:\Software\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE;;.]
+2019-03-25 23:01:20.375  INFO 6772 [main] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-25 23:01:20.375 DEBUG 6772 [main] --- o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-03-25 23:01:20.375  INFO 6772 [main] --- o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2142 ms
+2019-03-25 23:01:20.479  WARN 6772 [main] --- c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-25 23:01:20.479  INFO 6772 [main] --- c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 23:01:20.488  INFO 6772 [main] --- c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@15214920
+2019-03-25 23:01:21.443 DEBUG 6772 [main] --- eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {oshopGatewayApplication=com.oshopgateway.OshopGatewayApplication$$EnhancerBySpringCGLIB$$7cf955f9@375084c9}
+2019-03-25 23:01:21.496  INFO 6772 [main] --- o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**'], []
+2019-03-25 23:01:21.520 DEBUG 6772 [main] --- edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**']
+2019-03-25 23:01:21.526 DEBUG 6772 [main] --- o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-03-25 23:01:21.526 DEBUG 6772 [main] --- o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-03-25 23:01:21.527  INFO 6772 [main] --- o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7afe0e67, org.springframework.security.web.context.SecurityContextPersistenceFilter@5dfc2a4, org.springframework.security.web.header.HeaderWriterFilter@5bb2fb2b, org.springframework.security.web.authentication.logout.LogoutFilter@14a1769d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@781c2497, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a1371, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6121a7dd, org.springframework.security.web.session.SessionManagementFilter@5d829ef0, org.springframework.security.web.access.ExceptionTranslationFilter@59a09be, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21733cbe]
+2019-03-25 23:01:21.546  WARN 6772 [main] --- c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-25 23:01:21.547  INFO 6772 [main] --- c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 23:01:21.598 DEBUG 6772 [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-03-25 23:01:21.702  INFO 6772 [main] --- o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 23:01:21.717 DEBUG 6772 [main] --- s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-03-25 23:01:21.764 DEBUG 6772 [main] --- s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2019-03-25 23:01:21.777 DEBUG 6772 [main] --- o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-03-25 23:01:21.788 DEBUG 6772 [main] --- .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-03-25 23:01:22.036  INFO 6772 [main] --- o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-25 23:01:22.563  INFO 6772 [main] --- o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
+2019-03-25 23:01:22.648  INFO 6772 [main] --- o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-25 23:01:22.691  INFO 6772 [main] --- com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-25 23:01:22.743  INFO 6772 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-25 23:01:22.743  INFO 6772 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-25 23:01:22.839  INFO 6772 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-25 23:01:22.840  INFO 6772 [main] --- c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-25 23:01:23.067  INFO 6772 [main] --- c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-25 23:01:23.195  INFO 6772 [main] --- com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-25 23:01:23.196  INFO 6772 [main] --- com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-25 23:01:23.196  INFO 6772 [main] --- com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-25 23:01:23.196  INFO 6772 [main] --- com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-25 23:01:23.196  INFO 6772 [main] --- com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-25 23:01:23.197  INFO 6772 [main] --- com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-03-25 23:01:23.197  INFO 6772 [main] --- com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-25 23:01:23.359  INFO 6772 [main] --- com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-25 23:01:23.362  INFO 6772 [main] --- com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-03-25 23:01:23.364  INFO 6772 [main] --- c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-03-25 23:01:23.368  INFO 6772 [main] --- com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553535083367 with initial instances count: 3
+2019-03-25 23:01:23.370  INFO 6772 [main] --- o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVER with eureka with status UP
+2019-03-25 23:01:23.370  INFO 6772 [main] --- com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553535083370, current=UP, previous=STARTING]
+2019-03-25 23:01:23.373  INFO 6772 [DiscoveryClient-InstanceInfoReplicator-0] --- com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-HAFTVUM:gateway-server:8777: registering service...
+2019-03-25 23:01:23.400  INFO 6772 [main] --- o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8777"]
+2019-03-25 23:01:23.415  INFO 6772 [DiscoveryClient-InstanceInfoReplicator-0] --- com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-HAFTVUM:gateway-server:8777 - registration status: 204
+2019-03-25 23:01:23.450  INFO 6772 [main] --- o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8777 (http) with context path ''
+2019-03-25 23:01:23.451  INFO 6772 [main] --- .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8777
+2019-03-25 23:01:23.453  INFO 6772 [main] --- c.oshopgateway.OshopGatewayApplication   : Started OshopGatewayApplication in 6.636 seconds (JVM running for 7.927)
+2019-03-25 23:01:34.409  INFO 6772 [http-nio-8777-exec-4] --- o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-25 23:01:34.409  INFO 6772 [http-nio-8777-exec-4] --- o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-25 23:01:34.409 DEBUG 6772 [http-nio-8777-exec-4] --- o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-03-25 23:01:34.418 DEBUG 6772 [http-nio-8777-exec-4] --- o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-03-25 23:01:34.418  INFO 6772 [http-nio-8777-exec-4] --- o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-03-25 23:01:34.430 DEBUG 6772 [http-nio-8777-exec-4] --- o.s.s.w.u.matcher.AntPathRequestMatcher  : Request '/auth-api/oauth/token' matched by universal pattern '/**'
+2019-03-25 23:01:34.430 DEBUG 6772 [http-nio-8777-exec-4] --- o.s.security.web.FilterChainProxy        : /auth-api/oauth/token has an empty filter list
+2019-03-25 23:01:34.435 DEBUG 6772 [http-nio-8777-exec-4] --- o.s.web.servlet.DispatcherServlet        : POST "/auth-api/oauth/token", parameters={masked}
+2019-03-25 23:01:34.719  INFO 6772 [http-nio-8777-exec-4] --- c.netflix.config.ChainedDynamicProperty  : Flipping property: auth-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-03-25 23:01:34.755  INFO 6772 [http-nio-8777-exec-4] --- c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-auth-server
+2019-03-25 23:01:34.758  INFO 6772 [http-nio-8777-exec-4] --- c.netflix.loadbalancer.BaseLoadBalancer  : Client: auth-server instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth-server,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-03-25 23:01:34.766  INFO 6772 [http-nio-8777-exec-4] --- c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2019-03-25 23:01:34.798  INFO 6772 [http-nio-8777-exec-4] --- c.netflix.config.ChainedDynamicProperty  : Flipping property: auth-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-03-25 23:01:34.800  INFO 6772 [http-nio-8777-exec-4] --- c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client auth-server initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth-server,current list of Servers=[192.168.0.104:8787],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.0.104:8787;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@2e17b1e8
+2019-03-25 23:01:34.827  WARN 6772 [http-nio-8777-exec-4] --- o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 60000ms for the command auth-server is set lower than the combination of the Ribbon read and connect timeout, 142000ms.
+2019-03-25 23:01:35.179 DEBUG 6772 [http-nio-8777-exec-4] --- o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-03-25 23:01:35.772  INFO 6772 [PollingServerListUpdater-0] --- c.netflix.config.ChainedDynamicProperty  : Flipping property: auth-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-03-25 23:01:58.263 DEBUG 6772 [http-nio-8777-exec-3] --- o.s.s.w.u.matcher.AntPathRequestMatcher  : Request '/product-api/test123' matched by universal pattern '/**'
+2019-03-25 23:01:58.263 DEBUG 6772 [http-nio-8777-exec-3] --- o.s.security.web.FilterChainProxy        : /product-api/test123?access_token=6db7a025-51a1-41c6-ac8e-cb135f27c431 has an empty filter list
+2019-03-25 23:01:58.264 DEBUG 6772 [http-nio-8777-exec-3] --- o.s.web.servlet.DispatcherServlet        : GET "/product-api/test123?access_token=6db7a025-51a1-41c6-ac8e-cb135f27c431", parameters={masked}
+2019-03-25 23:01:58.341  INFO 6772 [http-nio-8777-exec-3] --- c.netflix.config.ChainedDynamicProperty  : Flipping property: product-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-03-25 23:01:58.342  INFO 6772 [http-nio-8777-exec-3] --- c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-product-server
+2019-03-25 23:01:58.342  INFO 6772 [http-nio-8777-exec-3] --- c.netflix.loadbalancer.BaseLoadBalancer  : Client: product-server instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=product-server,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-03-25 23:01:58.343  INFO 6772 [http-nio-8777-exec-3] --- c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2019-03-25 23:01:58.345  INFO 6772 [http-nio-8777-exec-3] --- c.netflix.config.ChainedDynamicProperty  : Flipping property: product-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-03-25 23:01:58.345  INFO 6772 [http-nio-8777-exec-3] --- c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client product-server initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=product-server,current list of Servers=[192.168.0.104:8788],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.0.104:8788;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@2b121b9f
+2019-03-25 23:01:58.364 DEBUG 6772 [http-nio-8777-exec-3] --- o.s.web.servlet.DispatcherServlet        : Completed 401 UNAUTHORIZED
+2019-03-25 23:01:59.346  INFO 6772 [PollingServerListUpdater-0] --- c.netflix.config.ChainedDynamicProperty  : Flipping property: product-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-03-25 23:02:03.683 DEBUG 6772 [http-nio-8777-exec-6] --- o.s.s.w.u.matcher.AntPathRequestMatcher  : Request '/product-api/test123' matched by universal pattern '/**'
+2019-03-25 23:02:03.684 DEBUG 6772 [http-nio-8777-exec-6] --- o.s.security.web.FilterChainProxy        : /product-api/test123?access_token=6db7a025-51a1-41c6-ac8e-cb135f27c43 has an empty filter list
+2019-03-25 23:02:03.684 DEBUG 6772 [http-nio-8777-exec-6] --- o.s.web.servlet.DispatcherServlet        : GET "/product-api/test123?access_token=6db7a025-51a1-41c6-ac8e-cb135f27c43", parameters={masked}
+2019-03-25 23:02:03.695 DEBUG 6772 [http-nio-8777-exec-6] --- o.s.web.servlet.DispatcherServlet        : Completed 401 UNAUTHORIZED
+2019-03-25 23:02:13.418 DEBUG 6772 [http-nio-8777-exec-1] --- o.s.s.w.u.matcher.AntPathRequestMatcher  : Request '/product-api/test123' matched by universal pattern '/**'
+2019-03-25 23:02:13.419 DEBUG 6772 [http-nio-8777-exec-1] --- o.s.security.web.FilterChainProxy        : /product-api/test123?access_token=6db7a025-51a1-41c6-ac8e-cb135f27c431 has an empty filter list
+2019-03-25 23:02:13.419 DEBUG 6772 [http-nio-8777-exec-1] --- o.s.web.servlet.DispatcherServlet        : GET "/product-api/test123?access_token=6db7a025-51a1-41c6-ac8e-cb135f27c431", parameters={masked}
+2019-03-25 23:02:13.430 DEBUG 6772 [http-nio-8777-exec-1] --- o.s.web.servlet.DispatcherServlet        : Completed 401 UNAUTHORIZED
+2019-03-25 23:02:33.498 DEBUG 6772 [http-nio-8777-exec-7] --- o.s.s.w.u.matcher.AntPathRequestMatcher  : Request '/product-api/test123' matched by universal pattern '/**'
+2019-03-25 23:02:33.498 DEBUG 6772 [http-nio-8777-exec-7] --- o.s.security.web.FilterChainProxy        : /product-api/test123?access_token=6db7a025-51a1-41c6-ac8e-cb135f27c431 has an empty filter list
+2019-03-25 23:02:33.498 DEBUG 6772 [http-nio-8777-exec-7] --- o.s.web.servlet.DispatcherServlet        : GET "/product-api/test123?access_token=6db7a025-51a1-41c6-ac8e-cb135f27c431", parameters={masked}
+2019-03-25 23:02:33.509 DEBUG 6772 [http-nio-8777-exec-7] --- o.s.web.servlet.DispatcherServlet        : Completed 401 UNAUTHORIZED
+2019-03-25 23:03:03.603 DEBUG 6772 [http-nio-8777-exec-2] --- o.s.s.w.u.matcher.AntPathRequestMatcher  : Request '/auth-api/oauth/token' matched by universal pattern '/**'
+2019-03-25 23:03:03.603 DEBUG 6772 [http-nio-8777-exec-2] --- o.s.security.web.FilterChainProxy        : /auth-api/oauth/token has an empty filter list
+2019-03-25 23:03:03.603 DEBUG 6772 [http-nio-8777-exec-2] --- o.s.web.servlet.DispatcherServlet        : POST "/auth-api/oauth/token", parameters={masked}
+2019-03-25 23:03:03.605  WARN 6772 [http-nio-8777-exec-2] --- o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 60000ms for the command auth-server is set lower than the combination of the Ribbon read and connect timeout, 142000ms.
+2019-03-25 23:03:03.739 DEBUG 6772 [http-nio-8777-exec-2] --- o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-03-25 23:03:26.015 DEBUG 6772 [http-nio-8777-exec-8] --- o.s.s.w.u.matcher.AntPathRequestMatcher  : Request '/product-api/test123' matched by universal pattern '/**'
+2019-03-25 23:03:26.015 DEBUG 6772 [http-nio-8777-exec-8] --- o.s.security.web.FilterChainProxy        : /product-api/test123?access_token=6db7a025-51a1-41c6-ac8e-cb135f27c431 has an empty filter list
+2019-03-25 23:03:26.015 DEBUG 6772 [http-nio-8777-exec-8] --- o.s.web.servlet.DispatcherServlet        : GET "/product-api/test123?access_token=6db7a025-51a1-41c6-ac8e-cb135f27c431", parameters={masked}
+2019-03-25 23:03:26.022 DEBUG 6772 [http-nio-8777-exec-8] --- o.s.web.servlet.DispatcherServlet        : Completed 401 UNAUTHORIZED
+2019-03-25 23:06:23.203  INFO 6772 [AsyncResolver-bootstrap-executor-0] --- c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
