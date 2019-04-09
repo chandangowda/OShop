@@ -25,5 +25,15 @@ public class UserController {
 		
 	}
 	
+	@PostMapping("/getuser")
+	public UserResponseDto getUser(@RequestBody UserDto userRequest) {
+		
+		UserResponseDto response=userService.getUser(userRequest);
+		return response;
+		
+	}
+	
+	
+	
 
 }

@@ -6,5 +6,7 @@ import com.user.userInformation.dto.UserResponseDto;
 public interface UserService {
 
 	UserResponseDto saveUser(UserDto userRequest);
+	
+	UserResponseDto getUser(UserDto userRequest);
 
 }

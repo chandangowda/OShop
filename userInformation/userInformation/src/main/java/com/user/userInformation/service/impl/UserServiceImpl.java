@@ -44,7 +44,7 @@ public class UserServiceImpl implements UserService {
 		UserDto newUser=mapper.map(user, UserDto.class);
 		userList.add(newUser);
 		res.setUserList(userList);
-		return null;
+		return res;
 		
 	}
 
