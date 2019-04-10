@@ -6,7 +6,11 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
+import lombok.Getter;
+import lombok.Setter;
+
 @Document(collection="categories")
+@Setter @Getter
 public class Category implements Serializable {
 
 	/**
