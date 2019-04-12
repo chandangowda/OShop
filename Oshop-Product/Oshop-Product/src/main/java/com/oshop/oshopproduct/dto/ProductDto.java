@@ -14,8 +14,11 @@ public class ProductDto implements Serializable {
 	private static final long serialVersionUID = 6775172763900650685L;
 	
 	private String category;
+	
     private String imageUrl;
+    
     private Double price;
+    
     private String title;
 
 }

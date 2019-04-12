@@ -7,9 +7,18 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
+import lombok.Getter;
+import lombok.Setter;
+
 @Document(value="product")
+@Getter @Setter
 public class Product implements Serializable {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4293699080007159200L;
+
 	@Id
 	private ObjectId id;
 	
