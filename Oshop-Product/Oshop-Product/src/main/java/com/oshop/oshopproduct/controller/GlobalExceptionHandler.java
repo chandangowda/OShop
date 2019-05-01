@@ -13,7 +13,7 @@ public class GlobalExceptionHandler {
 	@ExceptionHandler(value=Exception.class)
 	private ResponseEntity<ProductExceptionDto> handleApplicationException(Exception e) {
 		ProductExceptionDto resposne=new ProductExceptionDto();
-		 resposne.setErrorDetailMessage("Error");
+		 resposne.setErrorDetailMessage(e.getMessage());
 		 resposne.setStatusCode(500);
 		 return new ResponseEntity<ProductExceptionDto>(resposne, HttpStatus.INTERNAL_SERVER_ERROR);
 	}

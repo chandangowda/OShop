@@ -20,5 +20,7 @@ public class ProductDto implements Serializable {
     private Double price;
     
     private String title;
+    
+    private String id;
 
 }
