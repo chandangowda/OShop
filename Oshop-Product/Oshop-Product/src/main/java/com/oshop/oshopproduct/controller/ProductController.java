@@ -1,5 +1,7 @@
 package com.oshop.oshopproduct.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -46,6 +48,13 @@ public class ProductController {
 	public ProductResponseDto deleteProduct(@RequestParam("productid") String productid) {
 		return  productService.deleteProduct(productid);
 	}
+	
+	@GetMapping("getproducts")
+	public ProductResponseDto getProductsById(@RequestBody List<String> id) {
+		return productService.getProductsById(id);
+	}
+	
+	
  
 	
 	

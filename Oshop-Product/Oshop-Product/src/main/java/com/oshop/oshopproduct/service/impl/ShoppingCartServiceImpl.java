@@ -2,7 +2,9 @@ package com.oshop.oshopproduct.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
+import org.bson.types.ObjectId;
 import org.dozer.Mapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -40,6 +42,18 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
 		}
 			return response;
 		
+	}
+
+	@Override
+	public ShoppingCartResponseDto getCartItem(String cartid) {
+		ShoppingCartResponseDto response=new ShoppingCartResponseDto();
+		ObjectId cartId=new ObjectId(cartid);
+		Optional<ShoppingCart> dbresponse=repository.findById(cartId);
+		List<ShoppingCartDto> savedData=new ArrayList<>();
+		ShoppingCartDto savedEntity=mapper.map(savedData, ShoppingCartDto.class);
+		savedData.add(savedEntity);
+		response.setCartData(savedData);
+		return response;
 	}
 
 }

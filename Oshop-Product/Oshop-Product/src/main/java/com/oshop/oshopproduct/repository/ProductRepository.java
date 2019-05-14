@@ -1,5 +1,6 @@
 package com.oshop.oshopproduct.repository;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.bson.types.ObjectId;
@@ -12,5 +13,7 @@ import com.oshop.oshopproduct.entity.Product;
 public interface ProductRepository  extends  MongoRepository<Product, ObjectId>{
 	
 	Optional<Product> findById(ObjectId productId);
+	
+	List<Product> findByIdIn(List<ObjectId> productId);
 
 }

@@ -7,4 +7,6 @@ public interface ShoppingCartService {
 
 	ShoppingCartResponseDto saveCartItem(ShoppingCartDto request);
 
+	ShoppingCartResponseDto getCartItem(String cartid);
+
 }

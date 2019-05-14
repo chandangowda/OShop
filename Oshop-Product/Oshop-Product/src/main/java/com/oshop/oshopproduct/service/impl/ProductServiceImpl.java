@@ -76,5 +76,17 @@ public class ProductServiceImpl implements ProductService {
 		response.setStatusCode(200);
 		return response;
 	}
+
+	@Override
+	public ProductResponseDto getProductsById(List<String> id) {
+		ProductResponseDto response=new ProductResponseDto();
+	    List<ObjectId> objectIdLst=id.stream().map(element->new ObjectId(element)).collect(Collectors.toList());
+		List<Product> productLst=productRepo.findByIdIn(objectIdLst);
+		List<ProductDto> allProductDto=productLst.stream().map(element->mapper.map(element, ProductDto.class)).collect(Collectors.toList());
+		response.setStatus(true);
+		response.setProductResponseList(allProductDto);
+		return response;
+	}
+	
 	
 }
