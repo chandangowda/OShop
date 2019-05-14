@@ -1,6 +1,7 @@
 package com.oshop.oshopproduct.entity;
 
 import java.io.Serializable;
+import java.util.List;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
@@ -23,5 +24,7 @@ public class ShoppingCart implements Serializable {
 	private ObjectId id;
 	
 	private String dateCreated;
+	
+	private List<Item> items;
 
 }
