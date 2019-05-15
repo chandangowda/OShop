@@ -26,8 +26,13 @@ public class ShoppingCartController {
 	}
 	
 	@GetMapping("/getcart/{id}")
-	public ShoppingCartResponseDto getCartItem(@PathVariable String cartid) {
-		return cartService.getCartItem(cartid);
+	public ShoppingCartResponseDto getCartItem(@PathVariable String id) {
+		return cartService.getCartItem(id);
+	}
+	
+	@PostMapping("/findbycartproid/{cartid}/{prodid}")
+	public ShoppingCartResponseDto findAndUpdateProductIdAndCartid(@PathVariable("cartid") String cartid,@PathVariable("prodid") String prodid) {
+		return cartService.findAndUpdateProductIdAndCartid(cartid,prodid);
 	}
 	
 	

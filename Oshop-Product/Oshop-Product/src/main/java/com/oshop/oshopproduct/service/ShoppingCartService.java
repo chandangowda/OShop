@@ -9,4 +9,6 @@ public interface ShoppingCartService {
 
 	ShoppingCartResponseDto getCartItem(String cartid);
 
+	ShoppingCartResponseDto findAndUpdateProductIdAndCartid(String cartid, String prodid);
+
 }
