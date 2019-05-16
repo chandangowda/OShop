@@ -10,7 +10,7 @@ import com.oshop.oshopproduct.entity.ShoppingCart;
 public interface ShoppingCartRepository extends MongoRepository<ShoppingCart, ObjectId> {
 	
 	@Query("{'id':?0,'items.productId':?1}")
-	ShoppingCart findByCartidAndProductId(String cartId,String productId);
+	ShoppingCart findByCartidAndProductId(String productId);
 
 
 }

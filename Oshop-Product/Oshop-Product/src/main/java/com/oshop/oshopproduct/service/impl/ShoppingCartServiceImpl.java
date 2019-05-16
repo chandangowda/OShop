@@ -67,10 +67,18 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
 
 	@Override
 	public ShoppingCartResponseDto findAndUpdateProductIdAndCartid(String cartid, String prodid) {
-		ShoppingCart cart=repository.findByCartidAndProductId(cartid,prodid);
+		Optional<ShoppingCart> cartOptional=repository.findById(new ObjectId(cartid));
 		ShoppingCartResponseDto response=new ShoppingCartResponseDto();
+		  
+		ShoppingCart cart =cartOptional.get();
 		
-		if(cart==null) {
+		boolean allowFlag=true;
+		if(cart!=null && cart.getItems()!=null && !cart.getItems().isEmpty()) {
+			allowFlag=!cart.getItems().stream().anyMatch(element ->element.getProductId().equals(prodid));
+		}
+		
+		
+		if(cart==null || allowFlag) {
 			Update update = new Update();
 			Item item=new Item();
 			item.setProductId(prodid);
