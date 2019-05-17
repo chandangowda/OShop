@@ -20,4 +20,5 @@ public class ShoppingCartDto implements Serializable {
 	
 	private List<ItemDto> items;
 
+
 }
