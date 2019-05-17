@@ -1,6 +1,7 @@
 package com.oshop.oshopproduct.dto;
 
 import java.io.Serializable;
+import java.util.List;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -16,5 +17,8 @@ public class ShoppingCartDto implements Serializable {
 	private String dateCreated;
 
 	private String id;
+	
+	private List<ItemDto> items;
+
 
 }
