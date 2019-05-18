@@ -1,6 +1,7 @@
 package com.oshop.oshopproduct.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -33,6 +34,12 @@ public class ShoppingCartController {
 	@PostMapping("/findbycartproid/{cartid}/{prodid}")
 	public ShoppingCartResponseDto findAndUpdateProductIdAndCartid(@PathVariable("cartid") String cartid,@PathVariable("prodid") String prodid) {
 		return cartService.findAndUpdateProductIdAndCartid(cartid,prodid);
+	}
+	
+
+	@DeleteMapping("/deleteProductById/{cartid}/{prodid}")
+	public ShoppingCartResponseDto deleteProductById(@PathVariable("cartid") String cartid,@PathVariable("prodid") String prodid) {
+		return cartService.deleteProductById(cartid,prodid);
 	}
 	
 	

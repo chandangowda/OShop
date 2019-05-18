@@ -11,4 +11,6 @@ public interface ShoppingCartService {
 
 	ShoppingCartResponseDto findAndUpdateProductIdAndCartid(String cartid, String prodid);
 
+	ShoppingCartResponseDto deleteProductById(String cartid, String prodid);
+
 }

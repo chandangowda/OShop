@@ -113,4 +113,27 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
 		return response;
 	}
 
+	@Override
+	public ShoppingCartResponseDto deleteProductById(String cartid, String prodid) {
+		Optional<ShoppingCart> cartOptional=repository.findById(new ObjectId(cartid));
+		ShoppingCartResponseDto response=new ShoppingCartResponseDto();
+		  
+		ShoppingCart cart =cartOptional.get();
+		
+		cart.getItems().forEach(element -> {
+			if(element.getProductId().equals(prodid)) {
+				element.setCartCount(element.getCartCount()-1);
+			}
+		});
+		
+		repository.save(cart);
+		List<ShoppingCartDto> savedData=new ArrayList<>();
+		ShoppingCartDto savedEntity=mapper.map(cart, ShoppingCartDto.class);
+		savedData.add(savedEntity);
+		response.setCartData(savedData);
+		response.setStatusCode(200);
+		response.setStatus(true);
+		return response;
+	}
+
 }
