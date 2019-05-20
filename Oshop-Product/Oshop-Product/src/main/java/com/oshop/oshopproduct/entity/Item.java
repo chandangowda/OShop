@@ -16,5 +16,7 @@ public class Item implements Serializable {
 	private String productId;
 	
 	private int cartCount;
+	
+	private double totalPrice;
 
 }

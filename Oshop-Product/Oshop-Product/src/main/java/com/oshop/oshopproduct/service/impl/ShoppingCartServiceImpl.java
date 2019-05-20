@@ -136,4 +136,20 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
 		return response;
 	}
 
+	@Override
+	public ShoppingCartResponseDto clearProductById(String cartid) {
+		Optional<ShoppingCart> cartOptional=repository.findById(new ObjectId(cartid));
+		ShoppingCartResponseDto response=new ShoppingCartResponseDto();
+		ShoppingCart cart =cartOptional.get();
+		cart.setItems(new ArrayList<>());
+		repository.save(cart);
+		List<ShoppingCartDto> savedData=new ArrayList<>();
+		ShoppingCartDto savedEntity=mapper.map(cart, ShoppingCartDto.class);
+		savedData.add(savedEntity);
+		response.setCartData(savedData);
+		response.setStatusCode(200);
+		response.setStatus(true);
+		return response;
+	}
+
 }

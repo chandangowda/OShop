@@ -49,10 +49,12 @@ public class ProductController {
 		return  productService.deleteProduct(productid);
 	}
 	
-	@GetMapping("getproducts")
+	@PostMapping("getproducts")
 	public ProductResponseDto getProductsById(@RequestBody List<String> id) {
 		return productService.getProductsById(id);
 	}
+	
+	
 	
 	
  

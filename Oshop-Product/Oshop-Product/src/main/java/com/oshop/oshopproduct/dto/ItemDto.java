@@ -16,5 +16,7 @@ public class ItemDto implements Serializable {
 	private String productId;
 
 	private int cartCount;
+	
+	private double totalPrice;
 
 }

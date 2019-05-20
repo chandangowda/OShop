@@ -42,6 +42,11 @@ public class ShoppingCartController {
 		return cartService.deleteProductById(cartid,prodid);
 	}
 	
+	@DeleteMapping("/clearProductById/{cartid}")
+	public ShoppingCartResponseDto clearProductById(@PathVariable("cartid") String cartid) {
+		return cartService.clearProductById(cartid);
+	
+	}
 	
 
 }
