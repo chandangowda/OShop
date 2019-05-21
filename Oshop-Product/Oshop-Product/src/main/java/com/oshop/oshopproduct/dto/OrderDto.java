@@ -20,6 +20,8 @@ public class OrderDto implements Serializable {
 	private String datePlaced;
 
 	private Shipping shipping;
+	
+	private String id;
 
 	private List<ItemDto> item;
 

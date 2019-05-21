@@ -25,7 +25,7 @@ public class Order implements Serializable {
 	
 	private String datePlaced;
 	
-	private Shipping shipping;
+	private ShippingDto shipping;
 	
 	private List<Item> item;
 

@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.dozer.Mapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.oshop.oshopproduct.dto.OrderDto;
 import com.oshop.oshopproduct.dto.OrderResponseDto;
@@ -12,6 +13,7 @@ import com.oshop.oshopproduct.entity.Order;
 import com.oshop.oshopproduct.repository.OrderRepository;
 import com.oshop.oshopproduct.service.OrderService;
 
+@Service
 public class OrderServiceImpl implements OrderService {
 	
 	@Autowired
