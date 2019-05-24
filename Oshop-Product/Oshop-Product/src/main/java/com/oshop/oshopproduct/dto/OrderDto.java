@@ -24,5 +24,7 @@ public class OrderDto implements Serializable {
 	private String id;
 
 	private List<ItemDto> item;
+	
+	private String userId;
 
 }
