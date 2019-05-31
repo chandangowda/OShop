@@ -1,9 +1,9 @@
-package com.user.userInformation.repository;
+package com.oshop.OshopAuthServer.repository;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-import com.user.userInformation.entity.User;
+import com.oshop.OshopAuthServer.model.User;
 
 public interface UserRepository extends MongoRepository<User, ObjectId> {
 	

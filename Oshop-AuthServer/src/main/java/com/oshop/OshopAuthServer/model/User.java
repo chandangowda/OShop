@@ -1,6 +1,5 @@
-package com.user.userInformation.entity;
+package com.oshop.OshopAuthServer.model;
 
-import java.io.Serializable;
 import java.util.List;
 
 import org.bson.types.ObjectId;
@@ -16,15 +15,11 @@ import com.fasterxml.jackson.annotation.JsonProperty.Access;
 import lombok.Getter;
 import lombok.Setter;
 
-@Document(collection="user")
+@Document(collection = "users")
 @Setter @Getter
-public class User implements Serializable {
-	
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 8817120924020453069L;
+public class User {
 
+	
 	@Id
 	private ObjectId id;
 	
@@ -44,8 +39,6 @@ public class User implements Serializable {
     
     @DBRef
     private List<Role> roles;
-	
-	
-	
-	
+    
+    
 }

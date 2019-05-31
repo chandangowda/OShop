@@ -15,5 +15,11 @@ public class UserController {
 	  public ResponseEntity<Principal> user(Principal user) {
 	   return ResponseEntity.<Principal>ok(user);
 	  }
+	
+	
+	
+	
+	
+	
 
 }
