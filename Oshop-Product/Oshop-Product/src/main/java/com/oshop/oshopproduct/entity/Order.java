@@ -28,5 +28,8 @@ public class Order implements Serializable {
 	private ShippingDto shipping;
 	
 	private List<Item> item;
+	
+	private String userId;
+
 
 }

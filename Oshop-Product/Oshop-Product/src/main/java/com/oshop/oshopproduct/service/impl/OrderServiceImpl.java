@@ -2,6 +2,7 @@ package com.oshop.oshopproduct.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.dozer.Mapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,6 +35,30 @@ public class OrderServiceImpl implements OrderService {
 		response.setStatusMessage("Order save success");
 		savedEntityList.add(savedEntity);
 		response.setOrderData(savedEntityList);
+		return response;
+	}
+
+	@Override
+	public OrderResponseDto getOrderbUserid(String userid) {
+		OrderResponseDto response=new OrderResponseDto();
+		List<Order> orderList=orderRepository.findByuserId(userid);
+		List<OrderDto> orderListResponse=orderList.stream().map(element->mapper.map(element, OrderDto.class)).collect(Collectors.toList());
+		response.setStatus(true);
+		response.setStatusCode(200);
+		response.setStatusMessage("Order List");
+		response.setOrderData(orderListResponse);
+		return response;
+	}
+
+	@Override
+	public OrderResponseDto getOrders() {
+		OrderResponseDto response=new OrderResponseDto();
+		List<Order> orderList=orderRepository.findAll();
+		List<OrderDto> orderListResponse=orderList.stream().map(element->mapper.map(element, OrderDto.class)).collect(Collectors.toList());
+		response.setStatus(true);
+		response.setStatusCode(200);
+		response.setStatusMessage("Order List");
+		response.setOrderData(orderListResponse);
 		return response;
 	}
 
