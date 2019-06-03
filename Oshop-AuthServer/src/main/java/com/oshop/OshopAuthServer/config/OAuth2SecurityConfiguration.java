@@ -36,8 +36,8 @@ public class OAuth2SecurityConfiguration extends WebSecurityConfigurerAdapter {
         .csrf().disable()
         .anonymous().disable()
         .authorizeRequests()
-        .antMatchers("/oauth/token").permitAll()
-        .antMatchers("**/user/saveuser").permitAll();
+        .antMatchers("/oauth/token").permitAll();
+        //.antMatchers("**/user/saveuser").permitAll();
     }
  
     @Override
